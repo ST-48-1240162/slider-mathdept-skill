@@ -22,7 +22,7 @@ that this is a different theme before building.
 
 This copy differs from the original release in a few places: a `chinese` language option in place
 of the Norwegian ones, image paths renamed to `images/man-*` (unused, since branding is off), `calc`
-commented out, one trailing `%`, the colors renamed to `mdred`, `mdgrey1`..`mdgrey5` and `mdlink`,
+commented out (the three block widths use `\dimexpr` instead, so it is not needed), one trailing `%`, the colors renamed to `mdred`, `mdgrey1`..`mdgrey5` and `mdlink`,
 and a shorter header comment. Everything the original example `main.tex` demonstrates (theorem
 blocks, `alertblock`, `\SectionPage`, list styles, `\enumref`, bibliography icons) works with it.
 
